@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="btnGradientRoundedOutline">
+        <item name="android:textSize">@dimen/_56pxh</item>
+        <item name="android:textColor">@color/teal_A200</item>
+        <item name="android:fontFamily">@font/lalezar</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+        <item name="android:background">@drawable/rectangle_gradient_s_bluegray_100_00_c_indigo_a200_78_e_indigo_700_radius_48_75</item>
+    </style>
+    <style name="txtLalezarregular72">
+        <item name="android:textSize">@dimen/_72pxh</item>
+        <item name="android:textColor">@color/gray_100</item>
+        <item name="android:fontFamily">@font/lalezar</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="groupStyle">
+        <item name="android:background">@drawable/rectangle_dhi_0</item>
+    </style>
+    <style name="groupStylecornerRadius">
+        <item name="android:background">@drawable/rectangle_radius_107_14</item>
+    </style>
+    <style name="groupStylewhite_A700">
+        <item name="android:background">@drawable/rectangle_bg_white_a700</item>
+    </style>
+</resources>
