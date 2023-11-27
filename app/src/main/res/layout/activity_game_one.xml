@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="gameOneVM" type="com.vincesapplication.app.modules.gameone.data.viewmodel.GameOneVM"/>
+    </data>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearColumn60c71bf2f3cefour"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylewhite_A700">
+        <LinearLayout android:gravity="center_horizontal"
+            android:id="@+id/linearGAMEOne"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical" style="@style/groupStylewhite_A700">
+            <FrameLayout android:gravity="start"
+                android:id="@+id/frameSTAGEBACKGROUN"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent" style="@style/groupStylewhite_A700">
+                <ImageView android:id="@+id/imageFour"
+                    android:layout_gravity="start"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_60c71bf2f3ce4}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_60c71bf2f3ce4"/>
+                <FrameLayout android:id="@+id/frameStackknight01jump"
+                    android:layout_gravity="bottom|start"
+                    android:layout_height="@dimen/_242pxv"
+                    android:layout_marginBottom="@dimen/_28pxv"
+                    android:layout_marginTop="@dimen/_28pxv" android:layout_width="match_parent">
+                    <ImageView android:id="@+id/imageJUMP"
+                        android:layout_gravity="bottom|start"
+                        android:layout_height="@dimen/_224pxh"
+                        android:layout_marginEnd="@dimen/_10pxh"
+                        android:layout_marginTop="@dimen/_10pxv"
+                        android:layout_width="@dimen/_267pxh"
+                        android:scaleType="fitXY"
+                        imageRes="@{@drawable/img_knight01jump}"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_knight01jump"/>
+                    <ImageView android:id="@+id/imageORK"
+                        android:layout_gravity="top|end"
+                        android:layout_height="@dimen/_188pxh"
+                        android:layout_marginBottom="@dimen/_10pxv"
+                        android:layout_marginStart="@dimen/_10pxh"
+                        android:layout_width="@dimen/_164pxh"
+                        android:scaleType="fitXY"
+                        imageRes="@{@drawable/img_ork01run000}"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_ork01run000"/>
+                </FrameLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+</layout>

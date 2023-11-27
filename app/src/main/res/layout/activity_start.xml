@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="startVM" type="com.vincesapplication.app.modules.start.data.viewmodel.StartVM"/>
+    </data>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearColumn"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStyle">
+        <LinearLayout android:gravity="center_horizontal"
+            android:id="@+id/linearColumnsamplerpg"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/_20pxv"
+            android:layout_marginEnd="@dimen/_54pxh"
+            android:layout_marginStart="@dimen/_54pxh"
+            android:layout_marginTop="@dimen/_102pxv"
+            android:layout_width="match_parent"
+            android:orientation="vertical" style="@style/groupStylecornerRadius">
+            <TextView android:gravity="start"
+                android:id="@+id/txtSAMPLERPG"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="@{startVM.startModel.txtSAMPLERPG}"
+                style="@style/txtLalezarregular72" tools:text="@string/lbl_sample_rpg"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:ellipsize="end" android:gravity="center"
+                android:id="@+id/btnPlay"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_8pxh"
+                android:layout_marginStart="@dimen/_8pxh"
+                android:layout_marginTop="@dimen/_115pxv"
+                android:layout_width="match_parent"
+                android:paddingBottom="@dimen/_4pxv"
+                android:paddingEnd="@dimen/_30pxh"
+                android:paddingStart="@dimen/_30pxh"
+                android:paddingTop="@dimen/_4pxv"
+                android:singleLine="true"
+                android:text="@string/lbl_play"
+                android:textAllCaps="false"
+                style="@style/btnGradientRoundedOutline" tools:text="@string/lbl_play"/>
+        </LinearLayout>
+    </LinearLayout>
+</layout>
